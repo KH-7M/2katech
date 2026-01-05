@@ -1,0 +1,22 @@
+/* ==============================================
+   Reset et styles de base — extrait depuis styles.css
+   ============================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "New Hero", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
